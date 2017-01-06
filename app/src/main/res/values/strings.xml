@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ACalculator</string>
+    <string name="btn_del">Del</string>
+</resources>
