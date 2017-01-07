@@ -31,7 +31,7 @@
             android:id="@+id/lblOperationHistory"/>
         <com.rjeya.acalculator.AutoResizeTextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="68dp"
             android:text="0"
             android:textSize="70sp"
             android:minHeight="5sp"
@@ -76,8 +76,7 @@
             android:background="#FF532E3B"
             android:id="@+id/btnC"
             android:onClick="btnC_Click"/>
-        <Button
-            android:text="@string/btn_del"
+        <ImageButton
             android:textSize="25sp"
             android:textScaleX="1"
             android:layout_gravity="fill"
@@ -85,8 +84,9 @@
             android:layout_rowWeight="1"
             android:textColor="#FFFFFFFF"
             android:background="#FF532E3B"
+            android:src="@mipmap/clearsymbole"
             android:id="@+id/btnDel"
-            android:onClick="btnErase_Click"/>
+            android:onClick="btnErase_Click" />
         <Button
             android:text="÷"
             android:textSize="25sp"

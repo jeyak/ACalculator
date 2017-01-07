@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
     // Graphic component
@@ -15,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private AutoResizeTextView lblOperationHistory;
     private Button btnC;
     private Button btnCE;
-    private Button btnErase;
+    private ImageButton btnErase;
     private Button btn0;
     private Button btn1;
     private Button btn2;
@@ -64,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         this.lblOperationHistory = (AutoResizeTextView) findViewById(R.id.lblOperationHistory);
         this.btnC = (Button) findViewById(R.id.btnC);
         this.btnCE = (Button) findViewById(R.id.btnCE);
-        this.btnErase = (Button) findViewById(R.id.btnDel);
+        this.btnErase = (ImageButton) findViewById(R.id.btnDel);
         this.btn0 = (Button) findViewById(R.id.btn0);
         this.btn1 = (Button) findViewById(R.id.btn1);
         this.btn2 = (Button) findViewById(R.id.btn2);
