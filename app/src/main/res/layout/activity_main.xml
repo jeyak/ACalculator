@@ -9,7 +9,7 @@
 
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:orientation="vertical"
         android:background="#FF133445"
@@ -31,9 +31,9 @@
             android:id="@+id/lblOperationHistory"/>
         <com.rjeya.acalculator.AutoResizeTextView
             android:layout_width="match_parent"
-            android:layout_height="68dp"
+            android:layout_height="60dp"
             android:text="0"
-            android:textSize="70sp"
+            android:textSize="55sp"
             android:minHeight="5sp"
             android:lines="1"
             android:gravity="end"
@@ -46,239 +46,234 @@
         android:layout_width="match_parent"
         android:layout_below="@id/stckDisplay"
         android:layout_height="match_parent"
-        android:padding="0dp"
         android:layout_margin="0dp"
-        android:orientation="horizontal"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:columnCount="4"
-        android:rowCount="5">
+        android:rowCount="5"
+        android:columnCount="4">
         <Button
             android:text="CE"
             android:textSize="25sp"
-            android:textScaleX="1"
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textColor="#FFFFFFFF"
             android:background="#FF532E3B"
             android:id="@+id/btnCE"
-            android:onClick="btnCE_Click"/>
+            android:onClick="btnCE_Click"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
         <Button
             android:text="C"
             android:textSize="25sp"
-            android:textScaleX="1"
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textColor="#FFFFFFFF"
             android:background="#FF532E3B"
             android:id="@+id/btnC"
-            android:onClick="btnC_Click"/>
+            android:onClick="btnC_Click"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
         <ImageButton
             android:textSize="25sp"
-            android:textScaleX="1"
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textColor="#FFFFFFFF"
             android:background="#FF532E3B"
             android:src="@mipmap/clearsymbole"
             android:id="@+id/btnDel"
-            android:onClick="btnErase_Click" />
+            android:onClick="btnErase_Click"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
         <Button
             android:text="÷"
             android:textSize="25sp"
-            android:textScaleX="1"
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textColor="#FFFFFFFF"
             android:background="#FF225268"
             android:id="@+id/btnDivide"
-            android:onClick="btnDivide_Click"/>
+            android:onClick="btnDivide_Click"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
 
         <Button
             android:text="7"
             android:textSize="25sp"
-            android:textScaleX="1"
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textColor="#FFFFFFFF"
             android:background="#FF333333"
             android:id="@+id/btn7"
-            android:onClick="btn7_Click"/>
+            android:onClick="btn7_Click"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
         <Button
             android:text="8"
             android:textSize="25sp"
-            android:textScaleX="1"
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textColor="#FFFFFFFF"
             android:background="#FF333333"
             android:id="@+id/btn8"
-            android:onClick="btn8_Click"/>
+            android:onClick="btn8_Click"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
         <Button
             android:text="9"
             android:textSize="25sp"
-            android:textScaleX="1"
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textColor="#FFFFFFFF"
             android:background="#FF333333"
             android:id="@+id/btn9"
-            android:onClick="btn9_Click"/>
+            android:onClick="btn9_Click"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
         <Button
             android:text="×"
             android:textSize="25sp"
-            android:textScaleX="1"
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textColor="#FFFFFFFF"
             android:background="#FF225268"
             android:id="@+id/btnMultiply"
-            android:onClick="btnMultiply_Click"/>
+            android:onClick="btnMultiply_Click"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
 
         <Button
             android:text="4"
             android:textSize="25sp"
-            android:textScaleX="1"
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textColor="#FFFFFFFF"
             android:background="#FF333333"
             android:id="@+id/btn4"
-            android:onClick="btn4_Click"/>
+            android:onClick="btn4_Click"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
         <Button
             android:text="5"
             android:textSize="25sp"
-            android:textScaleX="1"
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textColor="#FFFFFFFF"
             android:background="#FF333333"
             android:id="@+id/btn5"
-            android:onClick="btn5_Click"/>
+            android:onClick="btn5_Click"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
         <Button
             android:text="6"
             android:textSize="25sp"
-            android:textScaleX="1"
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textColor="#FFFFFFFF"
             android:background="#FF333333"
             android:id="@+id/btn6"
-            android:onClick="btn6_Click"/>
+            android:onClick="btn6_Click"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
         <Button
             android:text="+"
             android:textSize="25sp"
-            android:textScaleX="1"
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textColor="#FFFFFFFF"
             android:background="#FF225268"
             android:id="@+id/btnAdd"
-            android:onClick="btnAdd_Click"/>
+            android:onClick="btnAdd_Click"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
 
         <Button
             android:text="1"
             android:textSize="25sp"
-            android:textScaleX="1"
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textColor="#FFFFFFFF"
             android:background="#FF333333"
             android:id="@+id/btn1"
-            android:onClick="btn1_Click"/>
+            android:onClick="btn1_Click"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
         <Button
             android:text="2"
             android:textSize="25sp"
-            android:textScaleX="1"
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textColor="#FFFFFFFF"
             android:background="#FF333333"
             android:id="@+id/btn2"
-            android:onClick="btn2_Click"/>
+            android:onClick="btn2_Click"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
         <Button
             android:text="3"
             android:textSize="25sp"
-            android:textScaleX="1"
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textColor="#FFFFFFFF"
             android:background="#FF333333"
             android:id="@+id/btn3"
-            android:onClick="btn3_Click"/>
+            android:onClick="btn3_Click"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
         <Button
             android:text="-"
             android:textSize="25sp"
-            android:textScaleX="1"
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textColor="#FFFFFFFF"
             android:background="#FF225268"
             android:id="@+id/btnSoustract"
-            android:onClick="btnSoustract_Click"/>
+            android:onClick="btnSoustract_Click"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
 
         <Button
             android:text="±"
             android:textSize="25sp"
-            android:textScaleX="1"
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textColor="#FFFFFFFF"
             android:background="#FF333333"
             android:id="@+id/btnNegate"
-            android:onClick="btnNegate_Click"/>
+            android:onClick="btnNegate_Click"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
         <Button
             android:text="0"
             android:textSize="25sp"
-            android:textScaleX="1"
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textColor="#FFFFFFFF"
             android:background="#FF333333"
             android:id="@+id/btn0"
-            android:onClick="btn0_Click"/>
+            android:onClick="btn0_Click"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
         <Button
             android:text=","
             android:textSize="25sp"
-            android:textScaleX="1"
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textColor="#FFFFFFFF"
             android:background="#FF333333"
             android:id="@+id/btnComma"
-            android:onClick="btnComma_Click"/>
+            android:onClick="btnComma_Click"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
         <Button
             android:text="="
             android:textSize="25sp"
-            android:textScaleX="1"
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:background="#FF124216"
             android:textColor="#FFFFFFFF"
             android:id="@+id/btnEqual"
-            android:onClick="btnEqual_Click"/>
-
-
+            android:onClick="btnEqual_Click"
+            android:layout_columnWeight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+        
     </GridLayout>
 </RelativeLayout>
